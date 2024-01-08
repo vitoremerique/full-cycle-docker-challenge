@@ -1,6 +1,9 @@
 # Challenge of FullCycle Docker course 
 ## Go Docker [Challenge](go_challenge/)
 _The challenge was print "Full cycle Rocks!!"_
+
+To acess the image in docker hub click [Here](https://hub.docker.com/repository/docker/vitoremerique/go/general)
+
 To run and test the container you just need run on terminal tow commands:
 >```docker build -t [nameImage] . ```
 
