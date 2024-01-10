@@ -10,6 +10,8 @@ services:
       tty: true
       networks:
         - node-network
+      volumes:
+      - ./nodejs:/usr/src/app
       depends_on:
         - db
 
@@ -24,6 +26,8 @@ services:
         - MYSQL_ROOT_PASSWORD=root
       networks:
         - node-network
+      volumes:
+      - ./mysql:/var/lib/mysql
     
     nginx:
       build: ./nginx/
