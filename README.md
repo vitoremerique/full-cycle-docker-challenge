@@ -1,4 +1,9 @@
 # Challenge of FullCycle Docker course 
+## First step
+> Clone the project with the command ahead
+
+ ```git clone https://github.com/vitoremerique/full-cycle-docker-challenge.git```
+
 ## Go Docker [Challenge](go_challenge/)
 _The challenge was print "Full cycle Rocks!!"_
 
